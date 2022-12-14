@@ -1,4 +1,4 @@
-#Coded by Connec - THT - Green Team
+#Coded by Connec 
 
 import subprocess
 import optparse
@@ -9,7 +9,7 @@ import time
 
 os.system("apt-get install figlet | apt-get install toilet")
 os.system("clear")
-os.system("figlet THTMacChanger | toilet --gay -f term")
+os.system("figlet MacChanger | toilet --gay -f term")
 os.system("toilet MacChanger - Coded By Connec V1.0 --gay -f term")
 time.sleep(2.5)
 
@@ -34,7 +34,7 @@ def mac_control(interface):
     else:
         return None
 
-print(colored("THT Mac Changer Programina Hos Geldiniz! Mac Adresiniz Değiştiriliyor...","blue"))
+print(colored("Mac Changer Programina Hos Geldiniz! Mac Adresiniz Değiştiriliyor...","blue"))
 time.sleep(2)
 
 (user_input, arguments) = user_inputs()
